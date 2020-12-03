@@ -1,0 +1,24 @@
+<div id='notesBarPage'>
+	<div id='notesBarPage_overflowMenu' class='overflowMenus'>
+		<div id='overflowMenu_notesBarpage_opt_delete_notes' 
+		class='overflowMenus-items item-last'> Delete Notes </div>
+	</div>
+	<div id='notesBarPage_notebars'></div>
+</div>
+		
+<div id='noteViewPage'>
+	<input type='text' id='noteTitleInput' placeholder='Title...' />
+	<textarea id='textarea' placeholder="What's on your mind?"></textarea>
+	<div id='noteViewPage-overflowMenu' class='overflowMenus'>
+		<div class='overflowMenus-items' id='clearNoteOption'> Clear </div>
+		<div class='overflowMenus-items' id='detailsNoteOption'> Details </div>
+		<div class='overflowMenus-items' id='copyNoteOption'> Copy </div>
+		<div class='overflowMenus-items' id='deleteNoteOption'> Delete </div>
+	</div>
+	<div id='detailsModal'>
+		<h2> Note Details </h2>
+		<div class='detailsModal_item' id='detailsModal_item_words'> Words: 0 </div>
+		<div class='detailsModal_item' id='detailsModal_item_paragraphs' 
+			style='padding-bottom: 20px;'> Paragraph: 0 </div>
+	</div>
+</div>

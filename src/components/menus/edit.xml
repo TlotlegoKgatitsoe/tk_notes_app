@@ -1,0 +1,20 @@
+<div class="mdc-menu mdc-menu-surface">
+	<ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
+		<li class="mdc-list-item" role="menuitem">
+		  <span class="mdc-list-item__ripple"></span>
+		  <span class="mdc-list-item__text">Clear</span>
+	  </li>
+		<li class="mdc-list-item" role="menuitem">
+			<span class="mdc-list-item__ripple"></span>
+			<span class="mdc-list-item__text">Details</span>
+		</li>
+		<li class="mdc-list-item" role="menuitem">
+			<span class="mdc-list-item__ripple"></span>
+			<span class="mdc-list-item__text">Copy</span>
+		</li>
+		<li class="mdc-list-item" role="menuitem">
+			<span class="mdc-list-item__ripple"></span>
+			<span class="mdc-list-item__text">Delete</span>
+		</li>
+	</ul>
+</div>

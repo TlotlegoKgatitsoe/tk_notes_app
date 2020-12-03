@@ -1,0 +1,39 @@
+{
+  "name": "tk-notes-app",
+  "version": "1.0.0",
+  "description": "an app that allows users to create notes and saves them",
+  "main": "server.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "node server.js",
+    "heroku-postbuild": "npm install && npm run build && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "null"
+  },
+  "keywords": [
+    "notes",
+    "app"
+  ],
+  "author": "Tlotlego Kgatitsoe",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "dotenv": "^8.2.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-remove-html-comments": "^1.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-strip-comments": "^2.5.2",
+    "gulp-uglify": "^3.0.2"
+  }
+}

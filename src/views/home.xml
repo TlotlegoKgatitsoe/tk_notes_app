@@ -1,0 +1,39 @@
+<!-- TOP APP BAR -->
+		
+<header class="mdc-top-app-bar mdc-top-app-bar--fixed mdc-elevation--z4">
+ <div class="mdc-top-app-bar__row">
+		<section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+			<button class="hide arrow-back material-icons mdc-top-app-bar__navigation-icon mdc-icon-button" 
+					aria-label="Open navigation menu">arrow_back</button>
+			<span class="mdc-top-app-bar__title"> TK Notes App </span>
+		</section>
+		<section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+			<button class="material-icons mdc-top-app-bar__action-item mdc-icon-button mdc-menu-surface--anchor" aria-label="Options">
+				more_vert
+	
+				<div class="mdc-menu mdc-menu-surface">
+					<ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
+						<li class="mdc-list-item delete-all" role="menuitem">
+							<span class="mdc-list-item__ripple"></span>
+							<span class="mdc-list-item__text">Delete All</span>
+						</li>
+					</ul>
+				</div>
+			</button>
+		</section>
+	</div>
+</header>
+
+<!-- NOTE CARDS -->
+
+<div id='note-cards'></div>
+		
+<!-- FAB -->
+
+<div class="mdc-touch-target-wrapper">
+	<button class="mdc-fab mdc-fab--touch add-note">
+		<div class="mdc-fab__ripple"></div>
+		<span class="material-icons mdc-fab__icon">add</span>
+		<div class="mdc-fab__touch"></div>
+	</button>
+</div>
