@@ -6,7 +6,7 @@
   "scripts": {
     "build": "gulp build",
     "start": "node server.js",
-    "heroku-postbuild": "npm install && npm run build && npm start && http-server build/"
+    "heroku-postbuild": "npm run build && http-server build/"
   },
   "repository": {
     "type": "git",
