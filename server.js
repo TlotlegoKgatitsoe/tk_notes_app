@@ -3,9 +3,13 @@ const app = express();
 const path = require( 'path' );
 const PORT = process.env.PORT || 3215;
 const fs = require( 'fs' );
+let SRC_URL;
 
-if ( process.env.NODE_ENV === 'development' ) require( 'dotenv' ).config();
-const SRC_URL = path.join( __dirname, process.env.APP_FOLDER );
+if ( process.env.APP_FOLDER ) {
+  SRC_URL = path.join( __dirname, 'build' );
+} else {
+  SRC_URL = path.join( __dirname, 'src' );
+}
 
 // Middleware
 app.use( express.static( SRC_URL ) );
