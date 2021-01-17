@@ -23,7 +23,7 @@ files and assets for deployment. If you still want to build the application, you
 
 This application is licensed under the the MIT License
 
-Copyright (c) 2020 Tlotlego Kgatitsoe
+Copyright (c) 2021 Tlotlego Kgatitsoe
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
